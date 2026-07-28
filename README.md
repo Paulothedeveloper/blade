@@ -81,9 +81,9 @@ Nenhum concorrente junta as quatro coisas: **DaVinci-nativo + em português + co
 
 | Produto | Preço | Comprar |
 |---|---|---|
-| BLADE Color | **R$97** (de R$197) | [comprar](https://paulocodex.com/comprar?product=velvet) |
-| BLADE Subs (3 abas: Cortar · Transcrever · Estilizar) | **R$147** (de R$197) | [comprar](https://paulocodex.com/comprar?product=velvet-suite) |
-| **BLADE Complete** (Color + Subs) | **R$197** (de R$297) | [comprar](https://paulocodex.com/comprar?product=velvet-complete) |
+| BLADE Color | **R$97** (de R$197) | [comprar](https://paulocodex.com/comprar?product=blade) |
+| BLADE Subs (3 abas: Cortar · Transcrever · Estilizar) | **R$147** (de R$197) | [comprar](https://paulocodex.com/comprar?product=blade-subs) |
+| **BLADE Complete** (Color + Subs) | **R$197** (de R$297) | [comprar](https://paulocodex.com/comprar?product=blade-complete) |
 
 Compra única, 2 PCs por licença, atualizações inclusas. O Color tem chave própria; o Subs, uma chave que destrava as 3 abas.
 
