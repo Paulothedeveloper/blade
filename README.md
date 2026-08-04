@@ -54,7 +54,7 @@ O que o grade comum não faz: halação (o sangramento avermelhado dos altos), g
 
 ## BLADE Subs: não é só cor
 
-Além do app de cor, o **BLADE Subs** é a suíte de edição pro DaVinci Resolve Studio: **um plugin só, 3 abas** que trabalham juntas (o "Enviar" passa direto de uma pra outra). **Uma chave destrava as 3.**
+Além do app de cor, o **BLADE Subs** é a suíte de edição pro DaVinci Resolve Studio: **4 plugins** que trabalham juntos. **Uma chave destrava os 4.**
 
 <div align="center">
 <img src="assets/blade-subs-cortar.png" alt="BLADE Subs: aba Cortar (AutoCut)" width="260" />
@@ -64,7 +64,9 @@ Além do app de cor, o **BLADE Subs** é a suíte de edição pro DaVinci Resolv
 
 - **Cortar (AutoCut):** corta silêncio, gaguejo e take repetido em segundos, por ripple, sem sair do DaVinci. Presets Pouco / Normal / Muito. A timeline original fica intacta.
 - **Transcrever:** edite pelo **texto** como no Premiere, com transcrição por IA rodando **na sua GPU** (Whisper local): sem nuvem, sem limite de horas, sem custo por minuto. Transcreve o **trecho** que você marcar (não o arquivo inteiro). Apagar texto corta o vídeo (ripple), localizar/substituir, exportar SRT.
-- **Estilizar (Legenda):** legenda viral com **karaokê** palavra a palavra, biblioteca de SFX e **41 letterings próprios** animados, nativa no Resolve. Templates de várias linhas e "Meus Modelos".
+- **Transcrever + Rough cut IA:** além de editar pelo texto, a IA acha os **retakes** (você errou e regravou) e mantém a **melhor tomada** sozinha, num clique.
+- **Estilizar (Legenda):** legenda viral com **karaokê** palavra a palavra, biblioteca de SFX, **letterings próprios** animados e **guia de safe zones** do TikTok/Reels/Shorts (onde a rede tapa o vídeo).
+- **BLADE Tools:** **baixa vídeo por URL** (YouTube/Instagram/TikTok) direto na timeline, com corte opcional, e **copia o enquadramento** (zoom/crop/posição) de um clipe pra vários.
 
 ### Por que BLADE (e não os outros)
 
@@ -82,10 +84,10 @@ Nenhum concorrente junta as quatro coisas: **DaVinci-nativo + em português + co
 | Produto | Preço | Comprar |
 |---|---|---|
 | BLADE Color | **R$97** (de R$197) | [comprar](https://paulocodex.com/comprar?product=blade) |
-| BLADE Subs (3 abas: Cortar · Transcrever · Estilizar) | **R$147** (de R$197) | [comprar](https://paulocodex.com/comprar?product=blade-subs) |
+| BLADE Subs (4 plugins: Cortar · Transcrever · Estilizar · Tools) | **R$147** (de R$197) | [comprar](https://paulocodex.com/comprar?product=blade-subs) |
 | **BLADE Complete** (Color + Subs) | **R$197** (de R$297) | [comprar](https://paulocodex.com/comprar?product=blade-complete) |
 
-Compra única, 2 PCs por licença, atualizações inclusas. O Color tem chave própria; o Subs, uma chave que destrava as 3 abas.
+Compra única, 2 PCs por licença, atualizações inclusas. O Color tem chave própria; o Subs, uma chave que destrava os 4 plugins.
 
 **Todos os planos numa página:** [paulocodex.com/blade](https://paulocodex.com/blade)
 
@@ -102,16 +104,17 @@ Depois é só ajustar os sliders no próprio nó e finalizar no Resolve.
 
 **Requisito:** DaVinci Resolve **Studio** (os plugins de Integração de Fluxo de Trabalho só existem no Studio) · Windows 10/11. O instalador **já traz tudo embutido** (IA de transcrição + ffmpeg): você **não** instala Python nem nada. O BLADE Color roda no Resolve **gratuito** e no Studio.
 
-**Instalar (uma vez, ~2 min):** baixe o `BLADE-Subs-Setup.zip` em **[Releases](../../releases)**, **feche o DaVinci**, extraia e rode o `INSTALAR.bat`. Reabra o Resolve → o **BLADE Subs** aparece em **Área de Trabalho › Integrações de Fluxo de Trabalho** com as 3 abas. *(O `BLADE-Color-setup.exe` também está nos Releases, instala à parte.)*
+**Instalar (uma vez, ~2 min):** baixe o `BLADE-Subs-Setup.zip` em **[Releases](../../releases)**, **feche o DaVinci**, extraia e rode o `INSTALAR.bat`. Reabra o Resolve → o **BLADE** aparece em **Área de Trabalho › Integrações de Fluxo de Trabalho** com os 4 plugins. *(O `BLADE-Color-setup.exe` também está nos Releases, instala à parte.)*
 
-**Testar e ativar:** 3 dias grátis ao abrir. Para liberar, clique em **Ativar** na barra de baixo do plugin e cole sua chave (veio na compra + e-mail; 1 chave = 2 PCs; a chave do Subs destrava as 3 abas de uma vez).
+**Ativar:** clique em **Ativar** na barra de baixo do plugin e cole sua chave no popup (veio na compra + e-mail; 1 chave = 2 PCs; a chave do Subs destrava os 4 plugins de uma vez).
 
-**Usar as 3 abas:**
+**Usar os 4 plugins:**
 - **Cortar:** clique no clipe na timeline → escolha o corte (silêncio / muleta / take repetido) → sai uma timeline nova já cortada; a original fica intacta.
 - **Transcrever:** ponha o playhead no pedaço (ou marque IN/OUT) → **Transcrever** (IA roda na sua GPU; baixa o modelo 1× no 1º uso) → edite pelo **texto** → clique em **Enviar** pra ir pra aba Estilizar.
-- **Estilizar:** escolha um dos **41 letterings** próprios (karaokê, impacto, neon) → opcional SFX → **Gerar** as legendas na timeline.
+- **Estilizar:** escolha um lettering próprio (karaokê, impacto, neon) → opcional SFX → **Gerar** as legendas na timeline. Aba **Guia**: põe as safe zones da rede social.
+- **Tools:** cole um link pra **baixar** o vídeo na timeline, ou salve o **enquadramento** de um clipe e aplique em vários.
 
-Guia completo dentro do `.zip` (`LEIA-ME.txt`). Dúvidas: **contato@paulocodex.com**.
+Guia completo abre sozinho depois de instalar (`GUIA.html`), e online em [paulocodex.com/blade/guia](https://paulocodex.com/blade/guia). Dúvidas: **contato@paulocodex.com**.
 
 ## Status
 
