@@ -77,7 +77,9 @@ Nenhum concorrente junta as quatro coisas: **DaVinci-nativo + em português + co
 | Onde roda | Premiere (os BR) ou assinatura | **DaVinci nativo, compra única** |
 | Transcrição | nuvem, por minuto/limite de horas | **sua GPU (Whisper local), ilimitada** |
 | Idioma | inglês | **português** |
-| Preço | US$ 10-20/mês recorrente | **paga uma vez, é seu** |
+| Modelo | assinatura mensal, pra sempre | **paga uma vez, é seu** |
+| Custo em 1 ano | ~R$1.800 a R$3.200/ano (todo ano) | **R$97 a R$197, uma vez** |
+| Por que dá pra ser único | pagam a IA por usuário → cobram todo mês | **a IA usa a SUA conta → nosso custo é zero** |
 
 ### Preços (fundador, lançamento)
 
@@ -88,6 +90,8 @@ Nenhum concorrente junta as quatro coisas: **DaVinci-nativo + em português + co
 | **BLADE Complete** (Color + Subs) | **R$197** (de R$297) | [comprar](https://paulocodex.com/comprar?product=blade-complete) |
 
 Compra única, 2 PCs por licença, atualizações inclusas. O Color tem chave própria; o Subs, uma chave que destrava os 4 plugins.
+
+**Garantia de 7 dias:** não gostou, devolvemos o dinheiro. Sem risco.
 
 **Todos os planos numa página:** [paulocodex.com/blade](https://paulocodex.com/blade)
 
